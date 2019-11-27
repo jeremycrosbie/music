@@ -23,9 +23,6 @@
 						<li class="nav-item justify-content-end">
 							<a class="nav-link" href="#calendar">Calendar</a>
 						</li>
-						<li class="nav-item justify-content-end">
-							<a class="nav-link" href="#about">About</a>
-						</li>
 
 						<li class="nav-item justify-content-end">
 							<a class="nav-link" href="#contact">Contact</a>
@@ -35,7 +32,10 @@
 			</nav>
 			<div class="row mt-5">
 				<div class="col-4">
-					<img class="img-fluid" src="{{site.baseurl}}/assets/img/sidebar.jpg"></img>
+					<figure class="figure">
+						<img class="figure-img img-fluid" src="{{site.baseurl}}/assets/img/sidebar.jpg"></img>
+						<figcaption class="figure-caption">Photo by Louie Medina</figcaption>
+					</figure>
 				</div>
 				<div class="col-8 mt-5">
 					<section id="home">
@@ -61,12 +61,6 @@
 						{% include contact.html %}
 					</section>
 					
-					<hr />
-					
-					<section id="about">
-						{% include about.html %}
-					</section>
-
 				</div>
 			</div>
 
