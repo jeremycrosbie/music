@@ -8,3 +8,4 @@ featured_image_class = "jc-site-image"
 cover_dimming_class = "jc-site-image-dimming"
 custom_css = ["custom.scss"]
 recent_posts_number = 3
+favicon = '/favicon.ico'
